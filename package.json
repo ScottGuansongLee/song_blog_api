@@ -1,0 +1,20 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liguansong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
